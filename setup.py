@@ -38,7 +38,7 @@ install_requires = [
     "numpy",
     "packaging",
     "prometheus_client",
-    "protobuf>=3.8.0,<=3.20.0",
+    "protobuf>=3.8.0,<=3.20.*",
     "psutil",
     # python-dateutil required by pandas and boto3, this makes sure the version
     # works for both
@@ -50,8 +50,8 @@ install_requires = [
     "sqlalchemy-utils<0.36.8",
     "sqlalchemy>=1.3.0,<1.4.0",
     "tabulate",
-    'contextvars;python_version < "3.7"',
-    'dataclasses;python_version < "3.7"',
+    'contextvars',
+    'dataclasses',
     "chardet",
     "simple-di==0.1.0",
 ]
